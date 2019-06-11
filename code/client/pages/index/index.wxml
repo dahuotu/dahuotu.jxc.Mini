@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button class='btn-green' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='panel'>
+    <view>1、瓜子二手车因使用广告极限词被罚1250万。</view>
+    <view>2、北京一乐天超市因使用广告极限词被罚4.4万。</view>
+    <view>3、绝味鸭脖因低俗广告违规被罚60万元。</view>
+    <view class='p'>由于违规使用极限广告词的例子数不胜数，且电商行业常有职业打假人从事打假，让商家损失惨重，故推出该小程序，用于检验广告极限词。     </view>
+  </view>
+  <view class="usermotto btn-green" bindtap="bindViewTap">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

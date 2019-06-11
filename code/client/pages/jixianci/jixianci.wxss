@@ -1,0 +1,30 @@
+/* pages/jixianci/jixianci.wxss */
+
+.section {
+  padding: 10rpx;
+}
+
+.searchInput {
+  height: 200rpx;
+  padding: 10rpx;
+  margin: 10rpx 10rpx 50rpx 10rpx;
+  box-shadow: 0 -0.02rpx 0.04rpx 0 rgba(219, 219, 219, 0.5);
+  width: 99%;
+}
+
+.search-result {
+  padding: 10rpx;
+  margin: 50rpx 10rpx 10rpx 10rpx;
+}
+
+.ft-red {
+  color: red;
+}
+
+.alert-yellow {
+  background-color: #ffd;
+  color: #000;
+  margin-top: 10rpx;
+  padding: 5px;
+  font-size: 32rpx;
+}

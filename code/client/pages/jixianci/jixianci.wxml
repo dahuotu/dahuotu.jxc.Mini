@@ -1,0 +1,15 @@
+<!--pages/jixianci/jixianci.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<view class="section">
+  <view class='alert-yellow'>
+    请注意
+    <span class="ft-red">红色</span>标记文案为广告法禁用/敏感词建议谨慎使用
+  </view>
+  <textarea class='searchInput' placeholder="请输入需要查询的文案" name="textarea" value='{{val}}' bindinput="bindTextArea" auto-height />
+  <button class='btn-search btn-green' bindtap="formSubmit">查询</button>
+  <view class='search-result'>
+    <label decode="true">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+    </label>
+  </view>
+</view>

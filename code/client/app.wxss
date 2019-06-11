@@ -1,0 +1,21 @@
+@import "/wxParse/wxParse.wxss";
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.btn-green {
+  height: 100rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 100rpx;
+  background: linear-gradient(90deg, rgba(44, 184, 90, 1) 0%, rgba(106, 197, 71, 1) 100%);
+	color: #fff;
+	pointer-events: auto;
+}
