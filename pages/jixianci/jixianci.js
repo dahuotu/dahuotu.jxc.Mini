@@ -85,7 +85,8 @@ Page({
       });
     } else {
       wx.request({
-        url: 'https://dahuotu.bdery.com/api/api.Aspx',
+        url:'https://api.dahuotu.com/api.aspx',
+        // url:'http://localhost:45532/server/api.aspx',
         data: {
           'act': 'jixianci',
           'val': that.data.val,

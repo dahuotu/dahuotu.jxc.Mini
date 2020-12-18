@@ -5,7 +5,8 @@
     请注意
     <span class="ft-red">红色</span>标记文案为广告法禁用/敏感词建议谨慎使用
   </view>
-  <textarea class='searchInput' placeholder="请输入需要查询的文案" name="textarea" value='{{val}}' bindinput="bindTextArea" auto-height />
+  <textarea class='searchInput' placeholder="请输入需要查询的文案" name="textarea" value='{{val}}' bindinput="bindTextArea"
+    auto-height />
   <button class='btn-search btn-green' bindtap="formSubmit">查询</button>
   <view class='search-result'>
     <label decode="true">
@@ -13,3 +14,4 @@
     </label>
   </view>
 </view>
+<ad class="ad" unit-id="adunit-1a31052ca2740c29"></ad>

@@ -16,4 +16,5 @@
   <view class="usermotto btn-green" bindtap="bindViewTap">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <ad unit-id="adunit-1a31052ca2740c29"></ad>
 </view>
